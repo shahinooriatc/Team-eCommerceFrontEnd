@@ -1,5 +1,5 @@
 #Live Link:
-https://dazzling-muffin-c7774c.netlify.app/
+https://metro-e-commerce.netlify.app/
 
 #Home_Page:
 ![alt text](https://github.com/shahinooriatc/Team-eCommerceFrontEnd/blob/1fcda959a9c4bcdac4d0d3a1213b1e037bb53601/src/image/Home.png)
