@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useContext } from "react";
 import { Store } from "./Store";
+import logo from './image/logo.png';
 
 function App() {
   const { state2, dispatch2, dispatch } = useContext(Store);
@@ -16,7 +17,9 @@ function App() {
     <BrowserRouter>
       <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img src={logo} alt=""  style={{width:'40%'}}/>
+          </Navbar.Brand>
           <Nav className="me">
             <Link className="nav-link active" to="/">
               Home
